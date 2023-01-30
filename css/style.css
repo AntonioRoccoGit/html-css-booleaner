@@ -28,7 +28,7 @@ header {
 
 /* MAIN */
 
-.main-title-container {
+.main-container {
     width: 70%;
 }
 
@@ -67,6 +67,7 @@ ul {
 table {
     width: 100%;
     text-align: left;
+    
 }
 
 .table-label {
@@ -75,4 +76,12 @@ table {
 
 .table-description {
     width: 50%;
+}
+
+.blue-table {
+    background-color: rgb(4, 120, 214);
+}
+
+.lightblue-table {
+    background-color: rgb(14, 192, 216);
 }
