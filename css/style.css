@@ -30,6 +30,7 @@ header {
 
 .header-logo {
     width: 10rem;
+    text-align: left;
 }
 
 /* MAIN */
@@ -104,7 +105,7 @@ table {
 
 .banner {
     width: 22rem;
-    height: 22rem;
+    height: 14rem;
 }
 
 .banner.top {
