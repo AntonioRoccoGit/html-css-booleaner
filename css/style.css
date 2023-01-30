@@ -19,3 +19,10 @@ header {
 .header-logo {
     width: 10rem;
 }
+
+/* MAIN */
+
+.main-title {
+    font-size: 3rem;
+}
+
