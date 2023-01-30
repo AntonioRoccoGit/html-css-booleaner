@@ -1,6 +1,21 @@
 /* RESET */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+    height: 6rem;
+    background-size: 24rem;
+    background-image: url(../img/pattern.png);
+    background-color: rgb(29, 140, 231);
+    line-height: 10rem;
+}
+
+.header-logo {
+    width: 10rem;
 }
