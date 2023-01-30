@@ -1,9 +1,20 @@
 /* RESET */
 
 * {
-    margin: 0 4px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* COMMON */
+
+.page-container {
+    width: 66rem;
+    margin: auto;
+}
+
+.margin {
+    margin-top: 2rem;
 }
 
 /* HEADER */
@@ -14,23 +25,15 @@ header {
     background-image: url(../img/pattern.png);
     background-color: rgb(29, 140, 231);
     line-height: 10rem;
+    width: 100%;
 }
 
 .header-logo {
     width: 10rem;
 }
 
-/* COMMON */
-
-.margin {
-    margin-top: 2rem;
-}
-
 /* MAIN */
 
-.main-container {
-    width: 70%;
-}
 
 .main-title {
     font-size: 2.6rem;
@@ -69,7 +72,7 @@ ul {
 table {
     width: 100%;
     text-align: left;
-    
+    border-collapse: collapse;
 }
 
 .table-label {
