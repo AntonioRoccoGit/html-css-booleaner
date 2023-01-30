@@ -23,7 +23,7 @@ header {
 /* COMMON */
 
 .margin {
-    margin-top: 10px;
+    margin-top: 2rem;
 }
 
 /* MAIN */
@@ -33,7 +33,7 @@ header {
 }
 
 .main-title {
-    font-size: 3rem;
+    font-size: 2.6rem;
 }
 
 .bottom-title {
@@ -61,8 +61,10 @@ header {
 }
 
 ul {
-    padding-left: 15px;
+    padding-left: 1rem;
 }
+
+/* TABLE */
 
 table {
     width: 100%;
@@ -80,8 +82,44 @@ table {
 
 .blue-table {
     background-color: rgb(4, 120, 214);
+    color: white;
 }
 
 .lightblue-table {
     background-color: rgb(14, 192, 216);
+}
+
+/* FOOTER */
+
+.footer-box{
+    margin-top: 2.2rem;
+}
+
+.banner-title {
+    color: rgb(168, 143, 143);
+}
+
+.banner {
+    width: 22rem;
+    height: 22rem;
+}
+
+.banner.top {
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 1rem;
+}
+
+.banner.bot {
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10rem;
+}
+
+.banner-text {
+    font-size: 2rem;
+    color: white;
+    padding: 1rem;
 }
